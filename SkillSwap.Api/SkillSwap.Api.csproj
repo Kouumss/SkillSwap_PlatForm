@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>e0595932-d1a8-4fd8-bac9-71e4b384d0be</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\SkillSwap.Contracts\SkillSwap.Contracts.csproj" />
+    <ProjectReference Include="..\SkillSwap.Application\SkillSwap.Application.csproj" />
+    <ProjectReference Include="..\SkillSwap.Infrastructure\SkillSwap.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

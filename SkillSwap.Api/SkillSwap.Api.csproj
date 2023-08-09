@@ -7,6 +7,10 @@
     <UserSecretsId>e0595932-d1a8-4fd8-bac9-71e4b384d0be</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <ProjectReference Include="..\SkillSwap.Contracts\SkillSwap.Contracts.csproj" />

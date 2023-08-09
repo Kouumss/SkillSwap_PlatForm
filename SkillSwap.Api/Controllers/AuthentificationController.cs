@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using SkillSwap.Api.Filters;
 using SkillSwap.Application.Services.Authentification;
 using SkillSwap.Contracts.Authentification;
 
@@ -10,11 +11,12 @@ public class AuthentificationController : ControllerBase
 {
 
     private readonly IAuthentificationService _authentificationService;
-   
+
     public AuthentificationController(IAuthentificationService authentificationService)
     {
         _authentificationService = authentificationService;
     }
+
 
     [HttpPost("register")]
     public IActionResult Register(RegisterRequest request)
@@ -39,7 +41,7 @@ public class AuthentificationController : ControllerBase
     public IActionResult Login(LoginRequest request)
     {
         var authResult = _authentificationService.Login(
-            
+
             request.Email,
             request.Password
         );

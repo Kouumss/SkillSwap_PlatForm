@@ -16,6 +16,7 @@
     <ProjectReference Include="..\SkillSwap.Contracts\SkillSwap.Contracts.csproj" />
     <ProjectReference Include="..\SkillSwap.Application\SkillSwap.Application.csproj" />
     <ProjectReference Include="..\SkillSwap.Infrastructure\SkillSwap.Infrastructure.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

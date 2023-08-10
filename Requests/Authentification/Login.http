@@ -3,8 +3,7 @@
 POST {{host}}/auth/login
 Content-Type: application/json
 
-
 {
-    "email" : "kouumss@gmail.com",
-    "password": "kouumss"
+    "email" : "batman@gmail.com",
+    "password": "batman"
 }

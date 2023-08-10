@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.Diagnostics;
 
-namespace SkillSwap.Api.Errors;
+namespace SkillSwap.Api.Common.Errors;
 
 public class SkillSwapPlatformProblemDetailsFactory : ProblemDetailsFactory
 {

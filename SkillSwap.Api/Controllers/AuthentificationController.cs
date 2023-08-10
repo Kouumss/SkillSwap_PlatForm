@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using SkillSwap.Api.Filters;
 using SkillSwap.Application.Services.Authentification;
 using SkillSwap.Contracts.Authentification;
 
